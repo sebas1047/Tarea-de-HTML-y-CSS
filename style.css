@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+nav {
+    background-color: #979494;
+    padding: 15px;
+    text-align: left;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+.hero, .services-hero, .contact-hero {
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+.hero {
+    background-color: #f1f1f1;
+    color: #000000; 
+    padding: 50px;
+    text-align: center;
+}
+
+.services-hero {
+    background-color: #333;
+}
+
+.contact-hero {
+    background-color: #000000;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 700px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+}
+
+.styled-table th, .styled-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.service-card, .contact-form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #e55347;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-img {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
